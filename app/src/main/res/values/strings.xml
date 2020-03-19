@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Emjoy</string>
+
+    <string name="menu_first">首页</string>
+    <string name="menu_second">DIY</string>
+    <string name="menu_third">我的</string>
+    <string name="please_input">ENTER KEY</string>
+    <string name="search">SEARCH</string>
+</resources>

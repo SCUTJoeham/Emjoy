@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paint_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tl_head"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue_dark">
+        <TextView
+            android:id="@+id/tl_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="DIY"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <GridLayout
+        android:id="@+id/GridLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/gif_button"
+            style="@style/DIYButton"
+            android:text="生成gif"
+            android:drawableTop="@drawable/gif" />
+
+        <Button
+            android:id="@+id/crop_button"
+            style="@style/DIYButton"
+            android:text="裁剪"
+            android:drawableTop="@drawable/cut"/>
+
+        <Button
+            android:id="@+id/filter_button"
+            style="@style/DIYButton"
+            android:text="滤镜"
+            android:drawableTop="@drawable/filter"/>
+
+        <Button
+            android:id="@+id/anime_button"
+            style="@style/DIYButton"
+            android:text="二维化"
+            android:drawableTop="@drawable/anime"/>
+
+
+        <Button
+            android:id="@+id/doodle_button"
+            style="@style/DIYButton"
+            android:text="涂鸦"
+            android:drawableTop="@drawable/paint"/>
+
+        <Button
+            style="@style/DIYButton"
+            android:text="敬请期待"
+            android:drawableTop="@drawable/photo"/>
+
+        <Button
+            style="@style/DIYButton"
+            android:text="敬请期待"
+            android:drawableTop="@drawable/photo"/>
+        <Button
+            style="@style/DIYButton"
+            android:text="敬请期待"
+            android:drawableTop="@drawable/photo"/>
+        <Button
+            style="@style/DIYButton"
+            android:text="敬请期待"
+            android:drawableTop="@drawable/photo"/>
+
+
+    </GridLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232323"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <Button
+        android:id="@+id/btn_select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/doodle_select_image" />
+
+    <TextView
+        android:id="@+id/img_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btn_select_image"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/btn_select_image"
+        android:ellipsize="middle"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="12dp" />
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btn_select_image" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/txt_demo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_above="@+id/demo"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:gravity="center"-->
+        <!--android:padding="5dp"-->
+        <!--android:text="Demo"-->
+        <!--android:textColor="#888888"-->
+        <!--android:textSize="16dp" />-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/demo"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_guide"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="涂鸦入门" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_mosaic"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="马赛克" />-->
+        <!--<Button-->
+            <!--android:id="@+id/btn_scale_gesture"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="手势缩放" />-->
+    <!--</LinearLayout>-->
+</RelativeLayout>
